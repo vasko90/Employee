@@ -1,0 +1,64 @@
+#main{
+    -fx-background-image:url("office2.jpg"); 
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-pref-width: 600px;
+    -fx-pref-height: 400px;
+}
+#title{
+    -fx-font-weight: bold;
+    -fx-font-size: 50px;
+    -fx-text-fill: black;
+}
+
+#gl{
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+#gl:hover{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#gl:pressed{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+#rest{
+    -fx-background-color:grey; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#titles{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+.label {
+     -fx-font-size: 13px;
+     -fx-font-weight: bold;
+     -fx-text-fill: white;
+}
+.radio-button, .table-view{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.button{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-color: white; 
+}
+.button:hover{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: black; 
+}
+.table-column{
+    -fx-text-fill: black;
+}
+.button:pressed{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-color: grey;
+}

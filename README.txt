@@ -1,0 +1,1 @@
+Java FX aplikacija za unos, izmenu i brisanje podataka o zaposlenima.
